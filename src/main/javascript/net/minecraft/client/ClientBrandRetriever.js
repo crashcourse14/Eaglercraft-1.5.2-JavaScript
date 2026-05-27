@@ -1,3 +1,6 @@
-export function getClientModName() {
-    return "Eaglercraft JavaScript";
+// ClientBrandRetriever.js
+export class ClientBrandRetriever {
+	static getClientModName() {
+	    return 'eaglercraft';
+	}
 }
